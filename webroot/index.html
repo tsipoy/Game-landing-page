@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game landing page</title>
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game landing page</title>
+</head>
+
+<body>
+  <header class="game_landing__header">
+    <img src="./images/game_landind_logo.png" class="game_landing__header__logo" alt>
+    <select name="language" id="language" class="game_landing__header__language_select">
+      <option value="ENG" class="game_landing__header__language_select__option">eng</option>
+      <option value="RUS" class="game_landing__header__language_select__option">rus</option>
+      <option value="FRA" class="game_landing__header__language_select__option">fra</option>
+      <option value="DEU" class="game_landing__header__language_select__option">due</option>
+    </select>
+    <label for="homepage" class="game_landing__header__homepage">≡
+      <input type="checkbox" id="homepage" class="game_landing__header__homepage__input">
+    </label>
+    <nav class="game_landing__header__navigation">
+      <ul class="game_landing__header__navigation__">
+        <li class="game_landing__header__navigation__lists"></li>
+        <li class="game_landing__header__navigation__lists"><a href="#">Main</a></li>
+        <li class="game_landing__header__navigation__lists"><a href="#">About</a></li>
+        <li class="game_landing__header__navigation__lists"><a href="#">Game features</a></li>
+        <li class="game_landing__header__navigation__lists"><a href="#">System requierements</a></li>
+        <li class="game_landing__header__navigation__lists"><a href="#">Quotes</a></li>
+      </ul>
+    </nav>
+    <h1 class="game_landing__header__title">Survive at all coats</h1>
+    <h3 class="game_landing__header___subtitle">Experience new social battle royale game</h3>
+    <div class="game_landing__header__data_store">
+      <a href="#" class="game_landing__header__data_store__list">By now on steam</a>
+      <a href="#" class="game_landing__header__data_store__list">$14.99</a>
+    </div>
+  </header>
+
+  <main class="game_landing__container">
+    <header class="game_landing__container__header">
+      <h1 class="game_landing__container__header__big_title"></h1>
+      <h3 class="game_landing__container__header__subtitle"></h3>
+    </header>
+    <article class="game_landing__container__article">
+      <p class="game_landing__container__article__game_about">Each round, <b>you</b> and <b>15</b> other contnts compete to
+        escape a deadly island filled with monsters. The trick is: <b>three</b> people can survive. Will you run solo or
+        form friendships with others to escape?</p>
+      <p class="game_landing__container__article__game_about">Making the right decisions could be the difference between
+        life an death</p>
+      <img src="./images/image-5.png" alt>
+      </article>
+  </main>
 </body>
+
 </html>
