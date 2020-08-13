@@ -9,13 +9,17 @@
 
 <body>
   <header class="game_landing__header">
-    <img src="./images/game_landind_logo.png" class="game_landing__header__logo" alt>
-    <select name="language" id="language" class="game_landing__header__language_select">
-      <option value="ENG" class="game_landing__header__language_select__option">eng</option>
-      <option value="RUS" class="game_landing__header__language_select__option">rus</option>
-      <option value="FRA" class="game_landing__header__language_select__option">fra</option>
-      <option value="DEU" class="game_landing__header__language_select__option">due</option>
-    </select>
+    <img src="./images/game_landing_logo.png" class="game_landing__header__logo" alt>
+    <form action="." method="GET">
+      <label for="lang_dropdown">Language</label>
+      <select name="lang" id="lang_dropdown">
+        <option lang="en" value="en" class="game_landing__header__language_select__option" label="English">
+        <option lang="ru" value="ru" class="game_landing__header__language_select__option" label="русский">
+        <option lang="fr" value="fr" class="game_landing__header__language_select__option" label="Français">
+        <option lang="de" value="de" class="game_landing__header__language_select__option" label="Deutsch">
+      </select>
+      <button type="submit">Save</button>
+    </form>
     <label for="homepage" class="game_landing__header__homepage">≡
       <input type="checkbox" id="homepage" class="game_landing__header__homepage__input">
     </label>
@@ -29,7 +33,7 @@
         <li class="game_landing__header__navigation__lists"><a href="#">Quotes</a></li>
       </ul>
     </nav>
-    <h1 class="game_landing__header__title">Survive at all coats</h1>
+    <h2 class="game_landing__header__title">Survive at all coats</h2>
     <h3 class="game_landing__header___subtitle">Experience new social battle royale game</h3>
     <div class="game_landing__header__data_store">
       <a href="#" class="game_landing__header__data_store__list">By now on steam</a>
@@ -38,22 +42,182 @@
   </header>
 
   <main class="game_landing__container">
-    <header class="game_landing__container__header">
-      <h1 class="game_landing__container__header__big_title"></h1>
-      <h3 class="game_landing__container__header__subtitle"></h3>
-    </header>
-    <article class="game_landing__container__article">
-      <p class="game_landing__container__article__game_about">Each round, <b>you</b> and <b>15</b> other contnts compete to
+    <article class="game_landing__container__gallery">
+      <header class="game_landing__container__gallery__header">
+        <h2 class="game_landing__container__gallery__header__big_title">Social battle royale game</h2>
+        <h3 class="game_landing__container__gallery__header__subtitle">What is SOS?</h3>
+      </header>
+      <p class="game_landing__container__gallery__game_about">Each round, <b>you</b> and <b>15</b> other contnts compete
+        to
         escape a deadly island filled with monsters. The trick is: <b>three</b> people can survive. Will you run solo or
         form friendships with others to escape?</p>
-      <p class="game_landing__container__article__game_about">Making the right decisions could be the difference between
+      <p class="game_landing__container__gallery__game_about">Making the right decisions could be the difference between
         life an death</p>
       <img src="./images/image-5.png" alt>
-      </article>
-      <article class="game_landing__container__article__features">
-        
-      </article>
+    </article>
+    <article class="game_landing__container__features">
+      <header class="game_landing__container__features__header">
+        <h2 class="game_landing__container__features__big_title">Features</h2>
+        <h3 class="game_landing__container__features__subtitle">What’s so special?</h3>
+      </header>
+      <div class="game_landing__container__features__description">
+        <h3 class="game_landing__container__features__description_title">Survive at all coasts</h3>
+        <p class="game_landing__container__features__description_text">You have 30 minutes to find a relic, signal for
+          extraction, and grab
+          one of three spots on the rescue chopper.</p>
+      </div>
+      <div class="game_landing__container__features__description">
+        <h3 class="game_landing__container__features__description_title">Create allies an enemies</h3>
+      </div>
+      <div class="game_landing__container__features__description">
+        <h3 class="game_landing__container__features__description_title">Impress the audience</h3>
+      </div>
+    </article>
+    <article class="game_landing__container__requirements">
+      <header class="game_landing__container__requirements__header">
+        <h2 class="game_landing__container__requirements__header">System requirements</h2>
+        <h2 class="game_landing__container__requirements__header">Can My Computer Run this game?</h2>
+      </header>
+      <nav class="game_landing__container__requirements__list">
+        <ul class="game_landing__container__requirements__list__inner">
+          <li class="game_landing__container__requirements__list__inner_heading">
+            <h3>Os:</h3>
+          </li>
+          <li class="game_landing__container__requirements__list__inner_text">Windows 7 64-bit only (No OSX support
+            at this time)
+          </li>
+        </ul>
+        <ul class="game_landing__container__requirements__list__inner">
+          <li class="game_landing__container__requirements__list__inner_heading">
+            <h3>Memory:</h3>
+          </li>
+          <li class="game_landing__container__requirements__list__inner_text">8 GB ram</li>
+        </ul>
+        <ul class="game_landing__container__requirements__list__inner">
+          <li class="game_landing__container__requirements__list__inner_heading">
+            <h3>Processor:</h3>
+          </li>
+          <li class="game_landing__container__requirements__list__inner_text">Intel Core 2 Duo @ 2.4 GHZ or AMD
+            Athlon X2 @ 2.8GHZ</li>
+        </ul>
+        <ul class="game_landing__container__requirements__list__inner">
+          <li class="game_landing__container__requirements__list__inner_heading">
+            <h3>Storage:</h3>
+          </li>
+          <li class="game_landing__container__requirements__list__inner_text">8 GB available space</li>
+        </ul>
+        <ul class="game_landing__container__requirements__list__inner">
+          <li class="game_landing__container__requirements__list__inner_heading">
+            <h3>Graphics:</h3>
+          </li>
+          <li class="game_landing__container__requirements__list__inner_text">NVIDIA GeForce GTX 660 2GB or AMD
+            Radeon HD 7850 2GB DirectX11 (Shader Model 5)</li>
+        </ul>
+      </nav>
+    </article>
+    <article class="game_landing__container__quotes">
+      <header class="game_landing__container__quotes__header">
+        <h2 class="game_landing__container__quotes__header__big_title">Press quotes</h2>
+        <h2 class="game_landing__container__quotes__header__subtitle">What people think?</h2>
+        <p class="game_landing__container__quotes__header__text">Our goal is to create a product and service that you’re
+          satisfied with and use it every day. This is why we’re constantly working on our services to make it better
+          every day and really listen to what our users has to say.</p>
+        <a href="#" class="game_landing__container__quotes__header__link">Read more testemonials</a>
+      </header>
+      <nav class="game_landing__container__quotes__navigation">
+        <ul class="game_landing__container__quotes__navigation__list">
+          <li class="game_landing__container__quotes__navigation__list_quote">
+            <h3>Evan Lahti</h3><span>PC Gamer</span>
+          </li>
+          <li class="game_landing__container__quotes__navigation__list_quote">“One of my gaming highlights of the
+            year.”<span>October 18, 2018</span></li>
+        </ul>
+        <ul class="game_landing__container__quotes__navigation__list">
+          <li class="game_landing__container__quotes__navigation__list_quote">
+            <h3>Jada Griffin </h3><span>Nerdreactor
+            </span>
+          </li>
+          <li class="game_landing__container__quotes__navigation__list_quote">“The next big thing in the world of
+            streaming and survival games.”
+            <span>“The next big thing in the world of streaming and survival games.”
+            </span></li>
+        </ul>
+        <ul class="game_landing__container__quotes__navigation__list">
+          <li class="game_landing__container__quotes__navigation__list_quote">
+            <h3>Aaron Williams</h3><span>Uproxx</span>
+          </li>
+          <li class="game_landing__container__quotes__navigation__list_quote">“Snoop Dogg Playing The Wildly
+            Entertaining ‘SOS’ Is Ridiculous.”<span>December 24, 2018</span></li>
+        </ul>
+      </nav>
+    </article>
+    <article class="game_landing__container__newsletter">
+      <header class="game_landing__container__newsletter__header">
+        <h2 class="game_landing__container__newsletter__header__big_title">Newsletter Subscribe </h2>
+        <h3 class="game_landing__container__newsletter__header__subtitle">Want to stay in touch?</h3>
+      </header>
+      <div class="game_landing__container__newsletter__div">
+        <p class="game_landing__container__newsletter__div__text">In order to start receiving our news, all you have to
+          do is enter your email address. Everything else will be taken care of by us. We will send you emails
+          containing information about game. We don’t spam.</p>
+        <form class="game_landing__container__newsletter__div__email_form">
+          <label for="email">Your email address<input type="text" id="email"></label>
+          <button class="game_landing__container__newsletter__div__subscribe_button">Subscribe now</button>
+        </form>
+      </div>
+    </article>
   </main>
+  <footer class="game_landing__footer">
+      <a href="#" class="game_landing__footer__logo"><img src="./images/game_landing_logo.png" alt></a>
+    <ul class="game_landing__footer__list__about">
+      <li class="game_landing__footer__list__about__game"><a href="#">Main</a></li>
+      <li class="game_landing__footer__list__about__game"><a href="#">About</a></li>
+      <li class="game_landing__footer__list__about__game"><a href="#">Game features</a></li>
+      <li class="game_landing__footer__list__about__game"><a href="#">System requirements</a></li>
+      <li class="game_landing__footer__list__about__game"><a href="#">Quotes</a></li>
+    </ul>
+    <ul class="game_landing__footer__list__social">
+      <li class="game_landing__footer__list__social__link">
+        <a href="#">
+          <img src="./images/facebook-1.png" alt>
+        </a>
+      </li>
+      <li class="game_landing__footer__list__social__link">
+        <a href="#">
+          <img src="./images/twitter.png" alt>
+        </a>
+      </li>
+      <li class="game_landing__footer__list__social__link">
+        <a href="#">
+          <img src="./images/vector.png" alt>
+        </a>
+      </li>
+      <li class="game_landing__footer__list__social__link">
+        <a href="#">
+          <img src="./images/twitch.png" alt>
+        </a>
+      </li>
+    </ul>
+    <ul class="game_landing__footer__list__license">
+      <li class="game_landing__footer__list__license__copyright">
+        © 2018 Outpost Games, Inc. All Rights Reserved
+      </li>
+      <li class="game_landing__footer__list__license__link">
+        <a href="#">
+          Privicy policy
+        </a></li>
+      <li class="game_landing__footer__list__license__link">
+        <a href="#">
+          Terms of services
+        </a>
+      </li>
+      <li class="game_landing__footer__list__license__link">
+        <a href="#">
+          Code of conduct
+        </a>
+      </li>
+    </ul>
+  </footer>
 </body>
 
 </html>
