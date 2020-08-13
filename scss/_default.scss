@@ -1,0 +1,13 @@
+@import "variable";
+
+// @each $font in $fonts {
+//     font-family: map-get($font, 'family');
+//     font-weight: map-get($font, 'weight');
+//     font-style: map-get($font, 'style');
+//     scr: map-get($font, 'filename');
+// }
+
+body {
+    background-color: $current-colour;
+    color: $base-color;
+}
