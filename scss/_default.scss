@@ -1,6 +1,7 @@
 @import "variable";
 
 // @each $font in $fonts {
+//   @font
 //     font-family: map-get($font, 'family');
 //     font-weight: map-get($font, 'weight');
 //     font-style: map-get($font, 'style');
@@ -10,4 +11,16 @@
 body {
     background-color: $current-colour;
     color: $base-color;
+}
+
+h3 {
+    color: #FFB548;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }

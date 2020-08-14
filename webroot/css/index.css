@@ -1,3 +1,106 @@
+.game_landing__header {
+  background-image: url("../images/angelina-andreas-jungleruins.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.game_landing__header__store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 179px; }
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap; }
+
+.game_landing__header__homepage {
+  background-image: url("../images/menu-icon.svg");
+  background-repeat: no-repeat; }
+
+.game_landing__header___list {
+  display: flex;
+  background-color: #FFB548;
+  padding: 12px;
+  border-radius: 2.94008px; }
+
+.game_landing__header__list__data_store {
+  color: #1A1917; }
+
+.game_landing__header__store__story {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  padding-block-start: 174px;
+  padding-block-end: 53px; }
+
+.game_landing__header__store__story_scroll {
+  background-image: url("../images/scroll-down.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-block-end: 1rem;
+  color: #FFFFFF; }
+
 body {
   background-color: #000000;
+  color: #FFFFFF; }
+
+h3 {
+  color: #FFB548; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.game_landing__header {
+  background-image: url("../images/angelina-andreas-jungleruins.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.game_landing__header__store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 179px; }
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap; }
+
+.game_landing__header__homepage {
+  background-image: url("../images/menu-icon.svg");
+  background-repeat: no-repeat; }
+
+.game_landing__header___list {
+  display: flex;
+  background-color: #FFB548;
+  padding: 12px;
+  border-radius: 2.94008px; }
+
+.game_landing__header__list__data_store {
+  color: #1A1917; }
+
+.game_landing__header__store__story {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  padding-block-start: 174px;
+  padding-block-end: 53px; }
+
+.game_landing__header__store__story_scroll {
+  background-image: url("../images/scroll-down.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-block-end: 1rem;
   color: #FFFFFF; }
