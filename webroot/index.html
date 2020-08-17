@@ -12,19 +12,19 @@
   <header class="game_landing__header">
     <img src="./images/game_landing_log.svg" class="game_landing__header__logo" alt>
     <form action="." method="GET">
-      <label for="lang_dropdown"></label>
-      <select name="lang" id="lang_dropdown">
-        <option lang="en" value="en" class="game_landing__header__language_select__option" label="English">
-        <option lang="ru" value="ru" class="game_landing__header__language_select__option" label="русский">
-        <option lang="fr" value="fr" class="game_landing__header__language_select__option" label="Français">
-        <option lang="de" value="de" class="game_landing__header__language_select__option" label="Deutsch">
-      </select>
-      <button type="submit">Save</button>
+      <label for="lang_dropdown" class="game_landing__header__label__dropdown">
+        <select name="lang" id="lang_dropdown">
+          <option lang="en" value="en" class="game_landing__header__language_select__option" label="English">
+          <option lang="ru" value="ru" class="game_landing__header__language_select__option" label="русский">
+          <option lang="fr" value="fr" class="game_landing__header__language_select__option" label="Français">
+          <option lang="de" value="de" class="game_landing__header__language_select__option" label="Deutsch">
+        </select>
+      </label>
       <label for="homepage" class="game_landing__header__homepage">
-        <input type="checkbox" id="homepage" class="game_landing__header__homepage__input">
+        <span>Menu</span>
       </label>
     </form>
-    <!-- <nav class="game_landing__header__menu">
+    <nav class="game_landing__header__menu">
       <ul class="game_landing__header__menu__">
         <li class="game_landing__header__menu__lists"><a href="#">Main</a></li>
         <li class="game_landing__header__menu__lists"><a href="#">About</a></li>
@@ -32,13 +32,15 @@
         <li class="game_landing__header__menu__lists"><a href="#">System requierements</a></li>
         <li class="game_landing__header__menu__lists"><a href="#">Quotes</a></li>
       </ul>
-    </nav> -->
+    </nav>
     <div class="game_landing__header__store">
       <h2 class="game_landing__header__title">Survive at all coats</h2>
-      <h4 class="game_landing__header___subtitle">Experience new social battle royale game</h4>
-      <ul class="game_landing__header___list">
-        <li><a href="#" class="game_landing__header__list__data_store">By now on steam</a></li>
-        <li><a href="#" class="game_landing__header__list__data_store">$14.99</a></li>
+      <h4 class="game_landing__header__subtitle">Experience new social battle royale game</h4>
+      <ul class="game_landing__header__list">
+        <li class="game_landing__header__steam"><a href="#" class="game_landing__header__list__data_store">By now on
+            steam</a></li>
+        <li class="game_landing__header__amount"><a href="#" class="game_landing__header__list__data_store">$14.99</a>
+        </li>
       </ul>
     </div>
     <div class="game_landing__header__store__story">
