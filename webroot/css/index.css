@@ -63,42 +63,6 @@ form {
   padding-block-end: 1rem;
   color: #FFFFFF; }
 
-.game_landing__header__homepage > [type="checkbox"]:checked ~ .menu_dropdown {
-  display: none; }
-
-.game_landing__header__menu {
-  padding: 1rem;
-  background-color: #f8f8f8;
-  position: absolute;
-  z-index: 3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 250px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  transform: translateX(-110%);
-  transition: transform 0.3s; }
-
-[type="checkbox"]:checked ~ .game_landing__header__menu {
-  transform: translateX(0); }
-
-[type="checkbox"]:checked ~ header .game_landing__header__homepage {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.25); }
-
-body > [type="checkbox"]:checked ~ main {
-  z-index: 1; }
-
-span {
-  color: transparent; }
-
 body {
   background-color: #000000;
   color: #FFFFFF; }
@@ -177,38 +141,45 @@ form {
   padding-block-end: 1rem;
   color: #FFFFFF; }
 
-.game_landing__header__homepage > [type="checkbox"]:checked ~ .menu_dropdown {
-  display: none; }
+.game_landing__container__gallery {
+  background-size: cover;
+  padding-block-start: 19px;
+  padding-block-end: 36px; }
 
-.game_landing__header__menu {
-  padding: 1rem;
-  background-color: #f8f8f8;
+.game_landing__container__gallery__lists {
+  position: relative; }
+
+.game_landing__container__gallery__lists-1 {
   position: absolute;
-  z-index: 3;
-  top: 0;
   left: 0;
-  bottom: 0;
-  width: 250px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  transform: translateX(-110%);
-  transition: transform 0.3s; }
+  z-index: -1; }
 
-[type="checkbox"]:checked ~ .game_landing__header__menu {
-  transform: translateX(0); }
-
-[type="checkbox"]:checked ~ header .game_landing__header__homepage {
+.game_landing__container__gallery__lists-2 {
   position: absolute;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.25); }
+  left: 15%;
+  top: 4%;
+  z-index: -1; }
 
-body > [type="checkbox"]:checked ~ main {
-  z-index: 1; }
+.game_landing__container__gallery__lists-3 {
+  position: absolute;
+  left: 20%;
+  top: 8%;
+  z-index: -2; }
 
-span {
-  color: transparent; }
+.game_landing__container__gallery__header {
+  border-bottom: 2px #FFFFFF solid;
+  border-radius: 2.34486px; }
+
+.game_landing__container__gallery__header__big_title {
+  margin-block-start: -15px;
+  margin-block-end: 50px; }
+
+.game_landing__container__gallery__game_about {
+  padding-block-start: 33px;
+  padding-inline-start: 36px;
+  padding-inline-end: 14px; }
+
+.game_landing__container__gallery >
+.game_landing__container__gallery__game_about:nth-of-type(2) {
+  padding-block-start: 16px;
+  padding-block-end: 51px; }

@@ -1,0 +1,56 @@
+@import "variable";
+
+.game_landing__container__gallery {
+    // background-image: url('../images/bg-image-2.png');
+    // background-repeat: no-repeat;
+    background-size: cover;
+    padding-block-start: 19px;
+    padding-block-end: 36px;
+    // background-color: rgba(19, 18, 18, 0.5);
+}
+
+.game_landing__container__gallery__lists {
+    position: relative;
+}
+
+.game_landing__container__gallery__lists-1 {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.game_landing__container__gallery__lists-2 {
+    position: absolute;
+    left: 15%;
+    top: 4%;
+    z-index: -1;
+}
+
+.game_landing__container__gallery__lists-3 {
+    position: absolute;
+    left: 20%;
+    top: 8%;
+    z-index: -2;
+}
+
+.game_landing__container__gallery__header {
+    border-bottom: 2px #FFFFFF solid;
+    border-radius: 2.34486px;
+}
+
+.game_landing__container__gallery__header__big_title {
+    margin-block-start: -15px;
+    margin-block-end: 50px;
+}
+
+.game_landing__container__gallery__game_about {
+    padding-block-start: 33px;
+    padding-inline-start: 36px;
+    padding-inline-end: 14px;
+}
+
+.game_landing__container__gallery > 
+.game_landing__container__gallery__game_about:nth-of-type(2) {
+    padding-block-start: 16px;
+    padding-block-end: 51px;
+}
