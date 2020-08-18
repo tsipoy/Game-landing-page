@@ -45,6 +45,7 @@ form {
     background-color: #FFB548;
     padding: 12px;
     border-radius: 2.94008px;
+
 }
 
 .game_landing__header__steam {
@@ -75,5 +76,76 @@ form {
     background-position: bottom;
     padding-block-end: 1rem;
     color: #FFFFFF;
+}
+
+// Dropdown
+
+#lang_dropdown {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: transparent;
+    color: #ffffff;
+}
+
+.game_landing__header__language_select__option:hover {
+    color: #FFB548;
+}
+
+// menu
+.menu_dropdown {
+    display: none;
+}
+
+.game_landing__header__menu {
+    padding: 1rem;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 50px rgba(204, 181, 181, 0.5);
+    transform: translateX(-110%);
+    transition: transform 0.3s;
+}
+
+[type="checkbox"]:checked ~ header .game_landing__header__menu {
+    transform: translateX(0);
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+[type="checkbox"]:checked ~ .game_landing__header .game_landing__header__homepage {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.25);
+  }
+  
+body > [type="checkbox"]:checked ~ main {
+    z-index: 1; 
+}
+
+span {
+    color: transparent;
+}
+
+.game_landing__header__menu__lists {
+    padding-block-end: 22px;
+}
+
+.game_landing__header__menu__lists__links {
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+.game_landing__header__menu__lists__links:hover {
+    color: #FFB548;
 }
 
