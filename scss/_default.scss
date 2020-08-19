@@ -1,20 +1,36 @@
 @import "variable";
 
-// @each $font in $fonts {
-//   @font
-//     font-family: map-get($font, 'family');
-//     font-weight: map-get($font, 'weight');
-//     font-style: map-get($font, 'style');
-//     scr: map-get($font, 'filename');
-// }
+html {
+    font-family: 'Open Sans', sans-serif;
+}
 
 body {
     background-color: $current-colour;
     color: $base-color;
 }
 
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 2px;
     color: #FFB548;
+}
+
+h4 {
+    font-size: 33px;
+    line-height: 33px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 li {
