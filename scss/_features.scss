@@ -5,5 +5,22 @@
         url('../images/feature-background-semi-transparent.png'),
         url('../images/feature-background-image.png');
     background-repeat: no-repeat;
-
+    background-position: top left;
+    background-size: cover;
+    padding-block-start: 50px;
+    padding-block-end: 85px;
+    margin-inline-start: -68px;
 }
+
+.game_landing__container__features__wrapper {
+    max-width: 281px;
+    margin-inline-start: auto;
+    padding-inline-end: 24px;
+    text-align: justify;
+}
+
+// .game_landing__container__features__description,
+// .game_landing__container__features__header {
+//     padding-inline-start: 115px;
+//     padding-inline-end: 24px;
+// }
