@@ -5,6 +5,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.game_landing__header__title {
+    font-size: 33px;
+    line-height: 33px;
+    letter-spacing: 3px;
+}
+
+.game_landing__header__subtitle {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-block-start: 0;
+}
 .game_landing__header__store {
     display: flex;
     flex-direction: column;
