@@ -331,26 +331,6 @@ span {
   padding-block-start: 19px;
   padding-block-end: 36px; }
 
-.game_landing__container__gallery__lists {
-  position: relative; }
-
-.game_landing__container__gallery__lists-1 {
-  position: absolute;
-  left: 0;
-  z-index: -1; }
-
-.game_landing__container__gallery__lists-2 {
-  position: absolute;
-  left: 15%;
-  top: 4%;
-  z-index: -1; }
-
-.game_landing__container__gallery__lists-3 {
-  position: absolute;
-  left: 20%;
-  top: 8%;
-  z-index: -2; }
-
 .game_landing__container__gallery__header {
   border-bottom: 2px #FFFFFF solid;
   border-radius: 2.34486px; }
@@ -368,6 +348,26 @@ span {
 .game_landing__container__gallery__game_about:nth-of-type(2) {
   padding-block-start: 16px;
   padding-block-end: 51px; }
+
+.game_landing__container__gallery__lists {
+  position: relative;
+  z-index: 1; }
+
+.game_landing__container__gallery__lists_2 {
+  position: absolute;
+  left: 15%;
+  top: 4%;
+  z-index: -1; }
+
+.game_landing__container__gallery__lists_3 {
+  position: absolute;
+  left: 20%;
+  top: 8%;
+  z-index: -2; }
+
+.game_landing__container__gallery__lists_image {
+  max-width: 100%;
+  display: block; }
 
 .game_landing__container__features {
   background-image: url("../images/feature-background-semi-transparent.png"), url("../images/feature-background-image.png");
@@ -388,7 +388,8 @@ span {
   background-image: url("../images/requirements-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  margin-block-start: 0; }
 
 .game_landing__container__requirements__header {
   padding-block-start: 60px; }
