@@ -1,8 +1,9 @@
 @import "variable";
 
 .game_landing__header {
-    background-image: url('../images/angelina-andreas-jungleruins.png');
+    background-image: url('../images/angelina-andreas-big.png');
     background-repeat: no-repeat;
+    background-position-x: 27%;
     background-size: cover;
 }
 
@@ -19,8 +20,9 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-block-start: 0;
+    margin-block-start: -15px;
 }
+
 .game_landing__header__store {
     display: flex;
     flex-direction: column;
