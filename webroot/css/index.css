@@ -420,6 +420,24 @@ body > [type="checkbox"]:checked ~ main {
   border-block-end: 0.504234px solid #979797;
   margin-block-end: 250px; }
 
+.game_landing__container__newsletter {
+  background-image: url("../images/status.png"), url("../images/mayan-raul-osorio-totem.png");
+  background-repeat: no-repeat;
+  background-size: 230px;
+  background-position-x: calc((230 / 2.5) * -1px); }
+
+.game_landing__container__newsletter__header {
+  padding-inline-start: calc(100% / 3);
+  padding-block-start: 25px;
+  margin-block-end: -15px; }
+
+.game_landing__container__newsletter__header__big_title {
+  margin-block-start: -15px; }
+
+.game_landing__container__newsletter__div {
+  padding-inline-start: calc(100% / 3);
+  padding-block-end: 61px; }
+
 .game_landing__container__quotes {
   padding-block-start: 36px;
   padding-block-end: 80px; }
