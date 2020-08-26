@@ -5,8 +5,9 @@
         url('../images/status.png'), 
         url('../images/mayan-raul-osorio-totem.png');
     background-repeat: no-repeat;
-    background-size: 230px;
-    background-position-x: calc((230 / 2.5) * -1px)
+    background-size: 270px;
+    background-position-x: calc((230 / 2) * -1px);
+    padding-block-end: 61px;
 }
 
 .game_landing__container__newsletter__header {
@@ -22,4 +23,32 @@
 .game_landing__container__newsletter__div {
     padding-inline-start: calc(100% / 3);
     padding-block-end: 61px;    
+}
+
+.game_landing__container__newsletter__div__email_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.game_landing__container__newsletter__div__email_input {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+    padding-block-end: 15px;
+    padding-block-start: 11px;
+    color: #FFB548;
+    margin-block-end: 20px;
+    text-align: center;
+}
+
+.game_landing__container__newsletter__div__subscribe_button {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 2.94008px;
+    padding-block-end: 15px;
+    padding-block-start: 11px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1A1917;
 }
