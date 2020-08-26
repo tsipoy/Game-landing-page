@@ -532,3 +532,60 @@ body > [type="checkbox"]:checked ~ main {
   padding-block-start: 20px;
   padding-block-end: 20px;
   padding-inline-start: 60px; }
+
+.game_landing__footer__logo {
+  background-image: url("../images/game_landing_log.svg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 50px;
+  width: 100%;
+  height: 100px; }
+
+.game_landing__footer__logo-link {
+  display: none; }
+
+.game_landing__footer__navigation {
+  display: flex;
+  flex-direction: column; }
+
+.game_landing__footer__list__navigation__about {
+  display: flex;
+  flex-direction: row; }
+
+.game_landing__footer__list__navigation__about__game {
+  padding-inline-end: 33px; }
+
+.game_landing__footer__list__navigation__about__game_link {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.game_landing__footer__list__navigation__social {
+  display: flex;
+  flex-direction: row;
+  margin-block-start: 44px;
+  padding-block-end: 41px;
+  border-block-end: 0.873968px solid #FFFFFF; }
+
+.game_landing__footer__list__navigation__social__link {
+  padding-inline-end: 60px; }
+
+.game_landing__footer__list__navigation__license__copyright {
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-block-end: 26px;
+  padding-block-start: 19px; }
+
+.game_landing__footer__navigation__licence__link {
+  font-size: 12px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
