@@ -44,6 +44,10 @@
     margin-inline-start: 19px;
 }
 
+.game_landing__header__div__union {
+    display: none;
+}
+
 form {
     display: flex;
     flex-direction: row;
@@ -159,6 +163,7 @@ body > [type="checkbox"]:checked ~ main {
 .game_landing__header__menu__lists__links {
     text-transform: uppercase;
     line-height: 16px;
+    font-size: 12px;
     letter-spacing: 0.1em;
     color: #ffffff;
 }
@@ -166,4 +171,66 @@ body > [type="checkbox"]:checked ~ main {
 .game_landing__header__menu__lists__links:hover {
     color: #FFB548;
 }
+
+
+@media(min-width: 1200px) {
+    .game_landing__header {
+        background-image: url(../images/angelina-andreas-big.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-block-start: 6px;
+    }
+
+    .game_landing__header__logo {
+        padding-block-start: 8px;
+        width: 55px;
+        height: 55px;
+        padding-inline-start: 119px;
+    }
+
+    .game_landing__header__label__dropdown {
+        margin-inline-end: 239px;
+        margin-block-start: -20px;
+    }
+
+    .game_landing__header__homepage {
+        display: none;
+    }
+
+    .game_landing__header__navigation__union__ul {
+        display: flex;
+        flex-direction: row;
+        padding-block-start: 6px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-inline-end: 121px;
+    }
+
+
+    .game_landing__header__navigation__union__ul__list_link {
+        padding-block-end: 17px;
+    }
+
+    .game_landing__header__menu {
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        box-shadow: none;
+        transform: none;
+        transition: none;
+    }
+
+    .game_landing__header__menu__ul_list {
+        display: flex;
+        flex-direction: row;
+        padding-inline-start: 310px;
+    }
+
+    .game_landing__header__menu__lists {
+        padding-inline-end: 32px;
+    }
+    
+}
+
 
