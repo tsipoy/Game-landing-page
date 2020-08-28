@@ -30,6 +30,10 @@
     flex-direction: column;
 }
 
+.game_landing__container__newsletter__div__email_label {
+    width: 100%;
+}
+
 .game_landing__container__newsletter__div__email_input {
     background: rgba(255, 255, 255, 0.08);
     border-radius: 3px;
@@ -37,7 +41,7 @@
     padding-block-start: 11px;
     color: #FFB548;
     margin-block-end: 20px;
-    text-align: center;
+    width: -webkit-fill-available;
 }
 
 .game_landing__container__newsletter__div__subscribe_button {
