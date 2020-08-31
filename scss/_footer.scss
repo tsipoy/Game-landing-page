@@ -91,3 +91,48 @@
     padding-inline-end: 16px;
     padding-inline-start: 16px;
 }
+
+@media(min-width: 1200px) {
+    .game_landing__footer {
+        position: relative;
+    }
+
+    .game_landing__footer__logo {
+        background-position: 10%;
+    }
+    .game_landing__footer__navigation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-block-start: -70px;
+        border-block-end: 0.873968px solid #FFFFFF;
+        margin-inline-start: 130px;
+        margin-inline-end: 58px;
+        padding-block-end: 20px;
+    }
+
+    .game_landing__footer__list__navigation__about {
+        display: flex;
+        flex-direction: row;
+        padding-inline-start: 0;
+    }
+
+    .game_landing__footer__list__navigation__social {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-block-end: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .game_landing__footer__list__navigation__license {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        padding-inline-start: 0;
+        flex-wrap: wrap;
+    }
+} 
