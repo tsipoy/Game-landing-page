@@ -50,6 +50,9 @@
   padding-inline-end: 29px;
   border-inline-end: 0.873968px solid #FFFFFF; }
 
+select .game_landing__header__language_select__option:checked {
+  color: gold; }
+
 .game_landing__header__homepage {
   margin-inline-start: 19px; }
 
@@ -107,6 +110,9 @@ form {
 .game_landing__header__language_select__option:hover {
   color: #FFB548; }
 
+.game_landing__header__navigation__union {
+  display: none; }
+
 .menu_dropdown {
   display: none; }
 
@@ -162,7 +168,9 @@ body > [type="checkbox"]:checked ~ main {
     background-image: url(../images/angelina-andreas-big.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-block-start: 6px; }
+    padding-block-start: 36px; }
+  .game_landing__header__title {
+    padding-block-start: 235px; }
   .game_landing__header__logo {
     padding-block-start: 8px;
     width: 55px;
@@ -178,24 +186,29 @@ body > [type="checkbox"]:checked ~ main {
     flex-direction: row;
     padding-block-start: 6px;
     position: absolute;
-    top: 0;
+    top: 35px;
     right: 0;
     padding-inline-end: 121px; }
-  .game_landing__header__navigation__union__ul__list_link {
-    padding-block-end: 17px; }
+  .game_landing__header__navigation__union {
+    display: block; }
+  .game_landing__header__navigation__union__ul__list:last-of-type {
+    padding-inline-start: 17px; }
   .game_landing__header__menu {
     background-color: transparent;
     width: auto;
     height: auto;
     box-shadow: none;
     transform: none;
-    transition: none; }
+    transition: none;
+    padding-block-start: 43px; }
   .game_landing__header__menu__ul_list {
     display: flex;
     flex-direction: row;
     padding-inline-start: 310px; }
   .game_landing__header__menu__lists {
-    padding-inline-end: 32px; } }
+    padding-inline-end: 32px; }
+  .game_landing__header__store__progress {
+    display: none; } }
 
 html {
   font-family: 'Open Sans', sans-serif; }
@@ -270,6 +283,9 @@ a {
   padding-inline-end: 29px;
   border-inline-end: 0.873968px solid #FFFFFF; }
 
+select .game_landing__header__language_select__option:checked {
+  color: gold; }
+
 .game_landing__header__homepage {
   margin-inline-start: 19px; }
 
@@ -327,6 +343,9 @@ form {
 .game_landing__header__language_select__option:hover {
   color: #FFB548; }
 
+.game_landing__header__navigation__union {
+  display: none; }
+
 .menu_dropdown {
   display: none; }
 
@@ -382,7 +401,9 @@ body > [type="checkbox"]:checked ~ main {
     background-image: url(../images/angelina-andreas-big.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-block-start: 6px; }
+    padding-block-start: 36px; }
+  .game_landing__header__title {
+    padding-block-start: 235px; }
   .game_landing__header__logo {
     padding-block-start: 8px;
     width: 55px;
@@ -398,24 +419,29 @@ body > [type="checkbox"]:checked ~ main {
     flex-direction: row;
     padding-block-start: 6px;
     position: absolute;
-    top: 0;
+    top: 35px;
     right: 0;
     padding-inline-end: 121px; }
-  .game_landing__header__navigation__union__ul__list_link {
-    padding-block-end: 17px; }
+  .game_landing__header__navigation__union {
+    display: block; }
+  .game_landing__header__navigation__union__ul__list:last-of-type {
+    padding-inline-start: 17px; }
   .game_landing__header__menu {
     background-color: transparent;
     width: auto;
     height: auto;
     box-shadow: none;
     transform: none;
-    transition: none; }
+    transition: none;
+    padding-block-start: 43px; }
   .game_landing__header__menu__ul_list {
     display: flex;
     flex-direction: row;
     padding-inline-start: 310px; }
   .game_landing__header__menu__lists {
-    padding-inline-end: 32px; } }
+    padding-inline-end: 32px; }
+  .game_landing__header__store__progress {
+    display: none; } }
 
 .game_landing__container__gallery {
   background-size: cover;
@@ -463,7 +489,7 @@ body > [type="checkbox"]:checked ~ main {
 .game_landing__container__features {
   background-image: url("../images/feature-background-semi-transparent.png"), url("../images/feature-background-image.png");
   background-repeat: no-repeat;
-  background-size: 800px;
+  background-size: cover;
   padding-block-start: 50px;
   margin-inline-start: -100px;
   padding-inline-end: 24px; }
@@ -480,29 +506,55 @@ body > [type="checkbox"]:checked ~ main {
   text-align: justify;
   padding-block-end: 61px; }
 
+.game_landing__container__features__wrapper::before {
+  height: 50%;
+  width: 2px; }
+
 .game_landing__container__features__description_title {
   padding-inline-start: 30px; }
 
 .game_landing__container__features__description:nth-of-type(1) {
   background-image: url("../images/ellipse-white.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position-y: 2.8rem; }
 
 .game_landing__container__features__description:nth-of-type(2) {
   background-image: url("../images/ellipse-transparent.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position-y: 2.8rem; }
 
 .game_landing__container__features__description:nth-of-type(3) {
   background-image: url("../images/ellipse-transparent.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position-y: 2.8rem; }
 
 .game_landing__container__features__description_text {
   border-inline-start: 1.95955px solid #FFFFFF;
   margin-inline-start: 7px;
   padding-block-end: 20px;
   padding-block-start: 20px;
-  margin-block-end: -23px;
+  margin-block-end: -47px;
   margin-block-start: -27px;
   padding-inline-start: 20px; }
+
+summary::-webkit-details-marker {
+  color: transparent; }
+
+@media (min-width: 1200px) {
+  .game_landing__container__features {
+    background-image: url(../images/feature-background-semi-transparent.png), url(../images/feature-background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 2px;
+    padding-block-start: 50px;
+    margin-inline-start: -100px;
+    padding-inline-end: 24px;
+    padding-inline-start: 231px;
+    max-width: 1441px; }
+  .game_landing__container__features__header {
+    padding-block-start: 167px; }
+  .game_landing__container__features__description:nth-of-type(3) {
+    padding-block-end: 200px; } }
 
 .game_landing__container__requirements {
   background-image: url("../images/requirements-background.png");
@@ -537,6 +589,19 @@ body > [type="checkbox"]:checked ~ main {
   grid-column: 1 / 3;
   border-block-end: 0.504234px solid #979797;
   margin-block-end: 250px; }
+
+@media (min-width: 1200px) {
+  .game_landing__container__requirements {
+    background-image: url("../images/bg-requirement-gradient.png"), url("../images/bg-requirement.png");
+    background-repeat: no-repeat;
+    max-width: 1441px; }
+  .game_landing__container__requirements__header {
+    text-align: center;
+    padding-block-start: 145px; }
+  .game_landing__container__requirements__list {
+    max-width: 573px;
+    padding-block-start: 100px;
+    padding-inline-start: 121px; } }
 
 .game_landing__container__newsletter {
   background-image: url("../images/status.png"), url("../images/mayan-raul-osorio-totem.png");
@@ -654,6 +719,29 @@ body > [type="checkbox"]:checked ~ main {
   padding-block-end: 20px;
   padding-inline-start: 60px; }
 
+@media (min-width: 1200px) {
+  .game_landing__container__quotes {
+    display: flex;
+    flex-direction: row; }
+  .game_landing__container__quotes__header {
+    max-width: 437px;
+    margin-block-start: auto;
+    margin-inline-start: 130px;
+    margin-block-end: auto;
+    margin-inline-end: auto; }
+  .game_landing__container__quotes__navigation {
+    max-width: calc(100% - 437px);
+    padding-inline-end: 47px; }
+  .testemonials_link {
+    text-align: start; }
+  .game_landing__container__quotes__navigation__list:nth-of-type(1) {
+    margin-inline-start: 193px; }
+  .game_landing__container__quotes__navigation__list:nth-of-type(2) {
+    margin-inline-end: 100px;
+    margin-inline-start: 73px; }
+  .game_landing__container__quotes__navigation__list:nth-of-type(3) {
+    margin-inline-start: 193px; } }
+
 .game_landing__footer__logo {
   background-image: url("../images/game_landing_log.svg");
   background-repeat: no-repeat;
@@ -731,3 +819,37 @@ body > [type="checkbox"]:checked ~ main {
   border-inline-end: #FFFFFF solid 2px;
   padding-inline-end: 16px;
   padding-inline-start: 16px; }
+
+@media (min-width: 1200px) {
+  .game_landing__footer {
+    position: relative; }
+  .game_landing__footer__logo {
+    background-position: 10%; }
+  .game_landing__footer__navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-block-start: -70px;
+    border-block-end: 0.873968px solid #FFFFFF;
+    margin-inline-start: 130px;
+    margin-inline-end: 58px;
+    padding-block-end: 20px; }
+  .game_landing__footer__list__navigation__about {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0; }
+  .game_landing__footer__list__navigation__social {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-block-end: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .game_landing__footer__list__navigation__license {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-inline-start: 0;
+    flex-wrap: wrap; } }
