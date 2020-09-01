@@ -5,7 +5,7 @@
         url('../images/feature-background-semi-transparent.png'),
         url('../images/feature-background-image.png');
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: cover;
     padding-block-start: 50px;
     margin-inline-start: -100px;
     padding-inline-end: 24px;
@@ -26,6 +26,11 @@
     padding-block-end: 61px;
 }
 
+.game_landing__container__features__wrapper::before {
+    height: 50%;
+    width: 2px;
+}
+
 .game_landing__container__features__description_title {
     padding-inline-start: 30px;
 }
@@ -33,16 +38,19 @@
 .game_landing__container__features__description:nth-of-type(1) {
     background-image: url('../images/ellipse-white.png');
     background-repeat: no-repeat;
+    background-position-y: 2.8rem;
 }
 
 .game_landing__container__features__description:nth-of-type(2) {
     background-image: url('../images/ellipse-transparent.png');
     background-repeat: no-repeat;
+    background-position-y: 2.8rem;
 }
 
 .game_landing__container__features__description:nth-of-type(3) {
     background-image: url('../images/ellipse-transparent.png');
     background-repeat: no-repeat;
+    background-position-y: 2.8rem;
 }
 
 .game_landing__container__features__description_text {
@@ -50,7 +58,12 @@
     margin-inline-start: 7px;
     padding-block-end: 20px;
     padding-block-start: 20px;
-    margin-block-end: -23px;
+    margin-block-end: -47px;
     margin-block-start: -27px;
     padding-inline-start: 20px;
+}
+
+
+summary::-webkit-details-marker { 
+    color: transparent;
 }
