@@ -67,3 +67,25 @@
 summary::-webkit-details-marker { 
     color: transparent;
 }
+
+@media(min-width: 1200px) {
+    .game_landing__container__features {
+        background-image: url(../images/feature-background-semi-transparent.png), url(../images/feature-background-image.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left 2px;
+        padding-block-start: 50px;
+        margin-inline-start: -100px;
+        padding-inline-end: 24px;
+        padding-inline-start: 231px;
+        max-width: 1441px;
+    }
+
+    .game_landing__container__features__header {
+        padding-block-start: 167px;
+    }
+
+    .game_landing__container__features__description:nth-of-type(3) {
+        padding-block-end: 200px;
+    }
+}
