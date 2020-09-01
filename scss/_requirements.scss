@@ -40,3 +40,24 @@
     border-block-end: 0.504234px solid #979797;
     margin-block-end: 250px;
 }
+
+@media(min-width: 1200px) {
+    .game_landing__container__requirements {
+    background-image: 
+        url('../images/bg-requirement-gradient.png'), 
+        url('../images/bg-requirement.png');
+    background-repeat: no-repeat;
+    max-width: 1441px;
+    }
+
+    .game_landing__container__requirements__header {
+        text-align: center;
+        padding-block-start: 145px;
+    }
+
+    .game_landing__container__requirements__list {
+        max-width: 573px;
+        padding-block-start: 100px;
+        padding-inline-start: 121px;
+    }
+}
