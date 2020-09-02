@@ -1,8 +1,8 @@
 @import "variable";
 
 .game_landing__container__newsletter {
-    background-image: 
-        url('../images/status.png'), 
+    background-image:
+        url('../images/bg-news-letter-gradient.png'),
         url('../images/mayan-raul-osorio-totem.png');
     background-repeat: no-repeat;
     background-size: 270px;
@@ -36,12 +36,12 @@
 
 .game_landing__container__newsletter__div__email_input {
     background: rgba(255, 255, 255, 0.08);
-    border-radius: 3px;
     padding-block-end: 15px;
     padding-block-start: 11px;
     color: #FFB548;
     margin-block-end: 20px;
     width: -webkit-fill-available;
+    border-radius: 5px;
 }
 
 .game_landing__container__newsletter__div__subscribe_button {
@@ -55,4 +55,51 @@
     line-height: 19px;
     text-align: center;
     color: #1A1917;
+}
+
+
+@media(min-width: 1200px) {
+    .game_landing__container__newsletter {
+
+        background-image:
+            url('../images/status.png'),
+            url('../images/mayan-raul-osorio-totem.png');
+        // background: radial-gradient(45.43% 53.19% at 50% 50%, transparent 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+        background-repeat: no-repeat;
+        background-position: 20%;
+    }
+    .game_landing__container__newsletter__header,
+    .game_landing__container__newsletter__div {
+        max-width: 50%;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    .game_landing__container__newsletter__div__text {
+        padding-block-start: 60px;
+        padding-block-end: 40px;
+    }
+
+    .game_landing__container__newsletter__div__email_form {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        max-width: 50%;
+        margin-inline-start: auto;
+        flex-wrap: nowrap;
+    }
+
+    .game_landing__container__newsletter__div__email_label {
+        padding-inline-end: 17px;
+    }
+
+    .game_landing__container__newsletter {
+        width: 100%;
+        padding-inline-end: 17px;
+    }
+
+    .game_landing__container__newsletter__div__subscribe_button {
+        width: 75%;
+    }
+
 }
