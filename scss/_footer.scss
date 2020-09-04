@@ -1,5 +1,9 @@
 @import "variable";
-
+.game_landing__footer {
+    // background-color: $current-colour;
+    padding-inline-start: 21px;
+    padding-inline-end: 26px;
+}
 .game_landing__footer__logo {
     background-image: url('../images/game_landing_log.svg');
     background-repeat: no-repeat;
@@ -18,6 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .game_landing__footer__list__navigation__about {
@@ -60,6 +65,8 @@
 
 .game_landing__footer__list__navigation__social__link {
     padding-inline-end: 60px;
+    display: flex;
+    flex-direction: row;
 }
 
 .game_landing__footer__list__navigation__license__copyright {
@@ -91,6 +98,25 @@
     padding-inline-end: 16px;
     padding-inline-start: 16px;
 }
+
+.game_landing__footer__list__navigation__social__link svg {
+    fill: white;
+}
+.game_landing__footer__list__navigation__social__link_facebook svg:hover {
+    fill: navy;
+}
+
+.game_landing__footer__list__navigation__social__link_twitter svg:hover {
+    fill: lightblue;
+}
+
+.game_landing__footer__list__navigation__social__link_twitch svg:hover {
+    fill: purple;
+}
+
+
+
+
 
 @media(min-width: 1200px) {
     .game_landing__footer {
